@@ -13,9 +13,13 @@
 10. requirements.txt: pip freeze > requirements.txt
 # CI
 name: CI
+
 on: [push, pull_request]
+
 jobs:
+
   build:
+  
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
