@@ -12,3 +12,11 @@
 9. Install: `pip install -r requirements.txt`
 10. requirements.txt: `pip freeze > requirements.txt`
 
+#CI/Cd
+1. Create a Workflow File
+Navigate to your repo: `.github/workflows/ci.yml`
+GitHub will automatically detect workflows in this directory.
+name : Workflow name (e.g., CI)
+on	: Triggers (e.g., push, pull_request)
+jobs	: Defines tasks (e.g., build, test)
+steps	: Individual commands to execute
