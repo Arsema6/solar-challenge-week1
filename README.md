@@ -11,8 +11,7 @@
 7. Pushing: git push -u origin main
 9. Install: `pip install -r requirements.txt`
 10. requirements.txt: `pip freeze > requirements.txt`
-
-#CI/Cd
+# CI/Cd
 1. Create a Workflow File
 Navigate to your repo: `.github/workflows/ci.yml`
 GitHub will automatically detect workflows in this directory.
